@@ -14,7 +14,7 @@ hashtags = ['#gaming']
 
 base = datetime.datetime(2020, 4, 28)
 delta = today-base
-dates = [ base + datetime.timedelta(days=x) for x in range(delta.days) ] #It doesn't include todat
+dates = [ base + datetime.timedelta(days=x) for x in range(delta.days) ] #It doesn't include today
 # Summing up days -> base + datetime.timedelta(days=1)
 
 maxtweets = 300 
@@ -26,7 +26,7 @@ for hashtag in hashtags:
 	for date in dates:
 		sleepy = random.randint(0,18)
 		print("Sleeping for {:d}".format(sleepy))
-		time.sleep(sleepy) #Trying to avoid Twitter blocks
+		time.sleep(sleepy) #Trying to avoid being blocked by Twitter
 		
 		since = (base + datetime.timedelta(days=-1)).date()
 		
