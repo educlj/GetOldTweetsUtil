@@ -1,7 +1,7 @@
 # Get Old Tweets Programatically
 A project written in Python to get old tweets, it bypass some limitations of Twitter Official API.
 
-### This repo observation
+### Project observation
 This project is only a shortcut to allow people batch process queries.
 
 ## Details
