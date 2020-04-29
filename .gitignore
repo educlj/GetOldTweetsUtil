@@ -89,3 +89,12 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+#CSV
+*.csv
+
+#VisualStudio Code Config
+.vscode/launch.json
+
+#Output from Batch-Exporter
+tweets/*.txt
